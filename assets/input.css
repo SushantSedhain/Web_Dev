@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.card{
+  @apply shadow-md rounded-md relative p-1
+}
+.nav-items{
+  @apply  gap-2 text-sm flex items-center hover:border-r-4 hover:border-orange-600 hover:pr-2 transition-all duration-150 ease-in-out
+}
+.button{
+  @apply px-10 p-2 border-2 border-orange-400 bg-transparent rounded-full text-orange-400 tracking-wide hover:text-white hover:bg-black hover:border-black transition-all delay-0
+}
+.time{
+  @apply absolute p-1 bg-black/10 top-5 left-5 flex gap-2 rounded-full items-center
+}
